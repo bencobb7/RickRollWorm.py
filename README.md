@@ -22,7 +22,7 @@ To get started with Rickrollworm.py, follow these steps:
 4. Create home directories for each user on the other two machines and ensure ownership.
 5. Add users to the sudoers group.
 6. Allow password authentication and disallow key authentication in ssh.config, then restart SSH.
-7. Run `sudo xhost +` on each user on Kali and Ubuntu 2.
+7. Run `xhost +` on Kali and Ubuntu 2.
 8. Add the Rickrollworm.py script to Ubuntu 1 and ensure it is executable and configured with appropriate IP ranges.
 
 ### Usage
